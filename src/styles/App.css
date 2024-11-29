@@ -1,0 +1,13 @@
+/* src/styles/App.css */
+.App {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .insights-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  

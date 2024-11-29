@@ -1,0 +1,11 @@
+[
+    {
+      "insight_id": 4,
+      "content": "Members aged 50+ have a 20% higher risk of chronic illness.",
+      "created_at": "2024-11-25 01:56:46",
+      "insight_type": { "name": "Descriptive", "description": "Provides a summary of historical data." },
+      "confidence_level": { "name": "High" },
+      "timeliness": { "type": "Real-Time" }
+    }
+  ]
+  
