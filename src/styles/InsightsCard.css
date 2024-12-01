@@ -1,0 +1,33 @@
+.insights-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+  }
+  
+  .insights-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .insights-card h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .insights-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .insights-card ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .insights-card strong {
+    color: #0078d7;
+  }
+  

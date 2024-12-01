@@ -1,0 +1,21 @@
+.insights-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  .insights-table th, .insights-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .insights-table th {
+    background: #0078d7;
+    color: white;
+  }
+  
+  .insights-table tr:nth-child(even) {
+    background: #f4f4f4;
+  }
+  

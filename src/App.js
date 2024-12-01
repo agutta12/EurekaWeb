@@ -1,8 +1,8 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LeftNav from './components/LeftNav';
 import InsightsPage from './pages/InsightsPage';
-import './index.css';
+import AddInsightsPage from './pages/AddInsightsPage'; // Import new page
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -11,8 +11,9 @@ function App() {
         <LeftNav />
         <div className="content">
           <Routes>
+            <Route path="/" element={<HomePage />} />
             <Route path="/insights" element={<InsightsPage />} />
-            {/* Add other routes as needed */}
+            <Route path="/add-insights" element={<AddInsightsPage />} /> {/* New route */}
           </Routes>
         </div>
       </div>

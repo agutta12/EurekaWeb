@@ -1,5 +1,5 @@
 import React from 'react';
-import './InsightsCard.css';
+import '../styles/InsightsCard.css';
 
 function InsightsCard({ insight }) {
   return (
